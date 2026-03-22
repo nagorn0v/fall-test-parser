@@ -9,5 +9,4 @@ items.forEach(li => {
   }
   
 });
-console.log(testsList);
 chrome.runtime.sendMessage({ type: 'RESULTS', data: testsList });
