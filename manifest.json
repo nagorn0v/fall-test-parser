@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "My First Extension",
+  "name": "Show fall tests extension",
   "version": "1.0.0",
   "description": "Показывает теги провалившихся тестов",
   "action": {
