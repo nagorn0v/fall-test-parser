@@ -15,6 +15,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (message.type === 'RESULTS') {
       collectedItems = message.data;
       renderResults(message.data);
+      
+      if (!message.data.length) {
+        document.getElementById('copyBtn').disabled = true;
+      }
       chrome.runtime.onMessage.removeListener(handler);
     }
   });
