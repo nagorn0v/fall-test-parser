@@ -1,4 +1,5 @@
-var table = document.querySelectorAll('ul')[4],
+var tables = document.querySelectorAll('ul');
+var table = tables[tables.length - 1],
     items = table.querySelectorAll('li'),
     testsList = [];
 
